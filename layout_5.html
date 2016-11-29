@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>layout 5</title>
+		<!-- style -->
+		<style>
+			.header{background-color: #ABCDF2;min-height: 150px;}
+			.nav{background-color: #F7B986;min-height: 50px;}
+			.content{min-height: 500px;}
+			.footer{background-color: #000;min-height: 100px;}
+
+			/*child style*/
+
+			.side_bar_left{border: 1px solid #000;width: 20%;min-height: 500px;float: left;background-color: #4285F4;}
+			.main_content{border: 1px solid #000;width: 60%;min-height: 500px;margin-left: 20%;}
+			.side_bar_right{border: 1px solid #000;width: 20%;float: right;min-height: 500px;margin-top: -502px;background-color: #4285F4;}
+
+
+			/*style for child>child*/
+			.top_content{border: 1px solid red;min-height: 100px;background-color: #F37421;}
+			.middle_content{border: 1px solid red;min-height:294px;background-color: #9981DD; }
+			.bottom_content{border: 1px solid red;min-height:100px;background-color: #7FE22E; }
+
+		</style>
+	</head>
+	<body>
+		<div class="header"></div>
+		<div class="nav"></div>
+		<div class="content">
+			<div class="side_bar_left"></div>
+			<div class="main_content">
+				<div class="top_content"></div>
+				<div class="middle_content"></div>
+				<div class="bottom_content"></div>
+			</div>
+			<div class="side_bar_right"></div>
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>
